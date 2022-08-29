@@ -86,7 +86,7 @@
                     <version>3.2.1</version>
                     <configuration>
                         <from>
-                            <image>eclipse-temurin:17@sha256:88aa71536cc7f2090e5358dd3e90f763550deac7dcd47b8ae7f60c0a3e6b5836</image>
+                            <image>eclipse-temurin:17</image>
                             <platforms>
                                 <platform>
                                     <architecture>arm64</architecture>
