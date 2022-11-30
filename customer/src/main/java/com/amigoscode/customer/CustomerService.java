@@ -16,7 +16,10 @@ public class CustomerService {
     private final RabbitMQMessageProducer rabbitMQMessageProducer;
 
     public void registerCustomer(CustomerRegistrationRequest request) {
+
+        System.out.println("CustomerService register customer is invoked");
         System.out.println("CustomerService register customer.");
+
         Customer customer = Customer.builder()
                 .firstName(request.firstName())
                 .lastName(request.lastName())
