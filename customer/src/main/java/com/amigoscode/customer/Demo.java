@@ -1,3 +1,5 @@
+package com.amigoscode.customer;
+
 public class Demo {
     
     private String name;
