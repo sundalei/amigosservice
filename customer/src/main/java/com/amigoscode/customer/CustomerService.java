@@ -22,6 +22,7 @@ public class CustomerService {
 
         System.out.println("CustomerService register customer is again invoked in feature2.");
         System.out.println("CustomerService register customer is again invoked in feature1.");
+        System.out.println("feature1");
 
         Customer customer = Customer.builder()
                 .firstName(request.firstName())
